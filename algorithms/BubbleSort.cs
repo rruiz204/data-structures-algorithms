@@ -2,7 +2,7 @@ namespace dotnet_dsa.algorithms;
 
 class BubbleSort
 {
-  public static void sort(int[] numbers)
+  public static void Sort(int[] numbers)
   {
     int length = numbers.Length;
 
