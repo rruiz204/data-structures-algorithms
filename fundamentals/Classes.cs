@@ -9,7 +9,7 @@ abstract class Shape
 
 class Square(double side) : Shape
 {
-    public double _side = side;
+    private double _side = side;
 
     public override double Area {
         get => Math.Round(_side * _side, 2);
